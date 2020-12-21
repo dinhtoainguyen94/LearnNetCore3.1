@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace eShopSolution.Data.Entities
 {
     public class Product
     {
-        public string Id { get; set; }
-        public string Price { get; set; }
-        public string OriginalPrice { get; set; }
-        public string Stock { get; set; }
-        public string VewCount { get; set; }
-        public string DateCreated { get; set; }
+        public int Id { get; set; }
+        public decimal Price { get; set; }
+        public decimal OriginalPrice { get; set; }
+        public int Stock { get; set; }
+        public int VewCount { get; set; }
+        public DateTime DateCreated { get; set; }
         public string SeoAlias { get; set; }
-
+        public List<ProductInCategory> ProductInCategories { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }
     }
 }
