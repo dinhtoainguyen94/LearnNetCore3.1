@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "EShopsolutionDatabase": "Data Source=DESKTOP-20S570H\\SQLEXPRESS02;Initial Catalog=EShopSolution1;Integrated Security=True;"
+  }
+}
