@@ -1,5 +1,5 @@
 {
   "ConnectionStrings": {
-    "EShopsolutionDatabase": "Data Source=DESKTOP-20S570H\\SQLEXPRESS02;Initial Catalog=EShopSolution1;Integrated Security=True;"
+    "EShopsolutionDatabase": "Server=W010900136619\\MSSQLSERVER01;Database=EShopSolution;Trusted_Connection=True;"
   }
 }

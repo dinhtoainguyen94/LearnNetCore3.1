@@ -21,6 +21,5 @@ namespace eShopSolution.Data.EF
 
             return new EShopDbContext(optionsBuilder.Options);
         }
-
     }
 }

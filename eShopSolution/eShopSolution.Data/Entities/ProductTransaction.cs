@@ -9,10 +9,11 @@ namespace eShopSolution.Data.Entities
         public int Id { get; set; }
         public int ProductId { get; set; }
         public string Name { get; set; }
+        public string SeoAliat { get; set; }
         public string SeoDescription { get; set; }
         public string SeoTitle { get; set; }
         public string Details { get; set; }
         public string Description { get; set; }
-        public int LanguageId { get; set; }
+        public string LanguageId { get; set; }
 }
 }
