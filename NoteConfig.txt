@@ -1,4 +1,0 @@
-- Git flow: dev -> 
-- Solution Structure:
-	+, DDD (Domain driven design)
-	+, N layer(Data, Bussiness, prenstation)
